@@ -1,0 +1,54 @@
+.icon-2xs {
+  height:20rpx;
+  width:20rpx;
+}
+
+.icon-xs {
+  height: 30rpx;
+  width: 30rpx;
+}
+
+.icon-s {
+  width:40rpx;
+  height:40rpx;
+}
+
+.icon-m {
+  width:50rpx;
+  height:50rpx;
+}
+
+.icon-mm {
+	width:55rpx;
+	height:55rpx;
+}
+
+.icon-ml {
+  width:60rpx;
+  height:60rpx;
+}
+
+.icon-mll {
+    width:65rpx;
+    height:65rpx;
+}
+
+.icon-ll {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.icon-l {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.icon-xl {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.icon-2xl {
+  height:150rpx;
+  width:150rpx;
+}

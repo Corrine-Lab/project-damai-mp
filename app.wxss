@@ -1,0 +1,2 @@
+/* 引入stylesheets */
+@import "stylesheets/index.wxss";
