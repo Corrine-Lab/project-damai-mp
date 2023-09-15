@@ -96,8 +96,11 @@ Page({
       const showId = this.data.show._id
       await bookShow( { showId } )
       
-      this.setData( { isBooked: true } )
-      this.fetchShowInfo( showId )
+	  this.setData( { isBooked: true } )
+		wx.navigateTo({
+		  url: '/pages/purchase/confirmation',
+		})
+    //   this.fetchShowInfo( showId )
     },
 
     // 取消订阅

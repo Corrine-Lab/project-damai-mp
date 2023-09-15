@@ -92,6 +92,6 @@ height: 60rpx;
 
 /* btns */
 .btns .cancel {
-  background-color: #FFDFDF;
+  background-color: #FD3F25;
   color: #000;
 }

@@ -7,14 +7,13 @@
 		"pages/users/index/index",
 		"pages/users/edit/index",
 		"pages/bookings/index/index",
-		"pages/followings/index/index",
-		"pages/comedians/index/index",
-		"pages/comedians/show/index"
+		"pages/purchase/confirmation"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "流浪单口",
+	"navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SQUARE CAT",
     "navigationBarTextStyle":"black"
   },
 	"tabBar": {
@@ -28,12 +27,7 @@
 				"iconPath": "images/tabBar/home.png",
 				"selectedIconPath": "images/tabBar/homeSelected.png"
 			},
-			{
-				"pagePath": "pages/comedians/index/index",
-				"text": "发现",
-				"iconPath": "images/tabBar/comedian.png",
-				"selectedIconPath": "images/tabBar/comedianSelected.png"
-			},
+
 			{
 				"pagePath": "pages/users/index/index",
 				"text": "我的",

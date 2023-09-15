@@ -12,13 +12,13 @@
 
 		<view class="role f32">
 			<text wx:if="{{ user.role === 'audience' }}">观众</text>
-			<text wx:if="{{ user.role === 'comedian' }}">演员</text>
+			<!-- <text wx:if="{{ user.role === 'comedian' }}">演员</text> -->
 			<text wx:if="{{ user.role === 'holder' }}">主理人</text>
 		</view>
 
-		<view class="followers f24 b px20 radius20 mt20 tc" wx:if="{{ user.role !== 'audience' }}">
+		<!-- <view class="followers f24 b px20 radius20 mt20 tc" wx:if="{{ user.role !== 'audience' }}">
 			<view>粉丝数：<text class="f32">{{ user.followings.length }}</text></view>
-		</view>
+		</view> -->
 	</view>
 
 	<!-- 操作列表 -->
@@ -35,7 +35,7 @@
 		</view>
 
     <!-- 我的关注 -->
-		<view class="follow"  bindtap="navigateToFollowing">
+		<!-- <view class="follow"  bindtap="navigateToFollowing">
 			<view class="left">
 				<image src="/images/profile/like.svg" mode="aspectFill"/>
 				<text>我的关注</text>
@@ -43,10 +43,10 @@
 			<view class="right">
 				<image src="/images/profile/right.svg" mode="aspectFill"/>
 			</view>
-		</view>
+		</view> -->
 
     <!-- 演出历史 -->
-		<view class="history"  bindtap="navigateToBookingHistory">
+		<!-- <view class="history"  bindtap="navigateToBookingHistory">
 			<view class="left">
 				<image src="/images/profile/stage.svg" mode="aspectFill"/>
 				<text>演出历史</text>
@@ -54,7 +54,7 @@
 			<view class="right">
 				<image src="/images/profile/right.svg" mode="aspectFill"/>
 			</view>
-		</view>
+		</view> -->
 
     <!-- 演出管理 -->
 		<view
